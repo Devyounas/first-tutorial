@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Pinyon+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 19px;
+    color: lavenderblush;
+    
+
+}
+
+body {
+    background-color: #033B55 !important;
+}
+
+ul li {
+    list-style: none !important; 
+}
+
+a {
+    text-decoration: none;
+}
+.contcan {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgb(128, 0, 32);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 200px;
+}
+.contacts {
+  text-align: center;
+  color: goldenrod;
+  font-weight: bold;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+label {
+  font-weight: bold;
+  color: goldenrod;
+}
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.conb{
+  background: linear-gradient(45deg, #D4AF37, #B8860B);
+  border-radius: 27px;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+.conb:hover {
+  background: linear-gradient(45deg, #D4AF37, #B8860B);
+  border-radius: 20px;
+}
+
+.map-container {
+    width: 100%;
+    height: 70vh;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+  
+iframe {
+    width: 100%;
+    height: 300%;
+    border: none;
+}
+
+footer {
+    background-color: #000000;
+    background-image: url(../img/footer\ section.png);
+       width: 100%;
+       right: 0px;
+       color: #fff;
+       padding: 50px 0 30px;
+       /* border-top-left-radius: 125px; */
+       font-size: 18px;
+       line-height: 15px;
+       background-position: center;
+       background-size: cover;
+       height: 60vh;
+       
+     }
+     
+     .foot {
+       width: 85%;
+       margin: auto;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: flex-start;
+       justify-content: space-between;
+     }
+     
+     .gra {
+     
+       flex-basis: 10px;
+       padding: 0px;
+     }
+     
+     .lpa {
+       width: 100%;
+       margin-bottom: 20px;
+     
+     
+     }
+   
+     .gra img{
+   
+       width: 300px;
+     }
+   
+   
+     
+     h2 {
+     
+       width: fit-content;
+       margin-bottom: 40px;
+       position: relative;
+     
+     }
+     
+     .foot p {
+     
+       width: fit-content;
+       margin-bottom: 10px;
+       position: relative;
+       text-align: start;
+       left: 10px;
+       line-height: 25px;
+     
+     }
+     
+     .Email {
+       width: fit-content;
+       border-bottom: 1px solid #fff;
+       margin: 20px 0;
+       color: #fff;
+       font-size: 25px;
+     
+     }
+     
+   
+   
+     
+     .fort-col ul li {
+     
+       list-style: none;
+       margin-bottom: 19px;
+       position: relative;
+       text-align: start;
+       
+     }
+     
+     
+     
+     .fort-col ul li a::before {
+     
+       content: '';
+       position: absolute;
+       bottom: -5px;
+       left: 0;
+       width: 0%;
+       height: 3px;
+       background-color: #ffffff;
+       transition: all .5s;
+     }
+     
+     .fort-col ul li a:hover::before {
+       width: 100%;
+     
+     
+     
+     }
+     
+     
+     
+     
+     
+     
+     .fort-col ul li a {
+       text-decoration: none;
+       color: #ffffff;
+       position: relative;
+       text-align: start;
+     
+     }
+     
+     .wwp {
+     
+       padding-bottom: 15px;
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       border-bottom: 1px solid #fff;
+       margin-bottom: 50px;
+      
+     
+     }
+     
+     .wwp .was {
+       font-size: 30px;
+       margin-right: 25px;
+   
+   
+     }
+   
+     .was{
+   
+   color: #fff;
+   font-size: 30px;
+   
+     }
+   
+     
+     .wwp input {
+       width: 100%;
+       background: transparent;
+       color: #ffffff;
+       border: 0;
+       outline: none;
+       font-size: 20px;
+     
+     }
+   
+     
+     .wwp .lds {
+     
+       background: transparent;
+       border: 0px;
+       outline: none;
+       cursor: pointer;
+       color: #fff;
+       font-size: 25px;
+   
+     }
+     
+     .wwp .lds .fa-thin {
+       font-size: 16px;
+       color: #fff;
+     
+     }
+     
+     .condes .ctr {
+       font-size: 25px;
+       align-items: start;
+       justify-content: space-between;
+       position: relative;
+       text-align: start;
+       margin-right: 15px;
+       box-shadow: 0px 0px 20px rgb(0, 0, 0);
+       color: #fff;
+     }
+     
+     .condes .ctr:hover {
+     
+   transform: scale(1.2px);
+   
+   }   
